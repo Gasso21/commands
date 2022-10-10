@@ -1,11 +1,11 @@
 ## zsh 명령어
 ### 맥에서 SCP 사용하기
-1. 맥에서 원격지 서버로 파일 전송  
-$ scp -p -r "파일이름" "원격지서버UserID"@"IPAddress":"원격지서버 디렉토리"
+**1. 맥에서 원격지 서버로 파일 전송**  
+*$ scp -p -r "파일이름" "원격지서버UserID"@"IPAddress":"원격지서버 디렉토리"*
 
 
-2. 원격지 서버에서 맥으로 파일 전송  
-$ scp -p -r "원격지서버UserID"@"IPAddress":"원격지서버 디렉토리(파일)" "저장할 로컬 디렉토리"
+**2. 원격지 서버에서 맥으로 파일 전송**  
+*$ scp -p -r "원격지서버UserID"@"IPAddress":"원격지서버 디렉토리(파일)" "저장할 로컬 디렉토리"*
 
 """  
 -p : 원본파일의 변경 시간, 접근 시간, 퍼미션 보존  
@@ -14,11 +14,11 @@ $ scp -p -r "원격지서버UserID"@"IPAddress":"원격지서버 디렉토리(�
 """  
 
 ### 맥에서 크램쉘모드 사용
-1. 잠자기 모드 Off  
-$ sudo pmset -b disablesleep 1  
+**1. 잠자기 모드 Off**  
+*$ sudo pmset -b disablesleep 1*  
 
-2. 잠자기 모드 On  
-$ sudo pmset -b disablesleep 0  
+**2. 잠자기 모드 On**  
+*$ sudo pmset -b disablesleep 0*  
 
 """  
 pmset : Power Management Setting  
@@ -29,7 +29,7 @@ pmset : Power Management Setting
 """
 
 ## 맥 종료 명령어  
-$ sudo shutdown -h now  
+*$ sudo shutdown -h now*  
 
 """  
 -r : 종료 후 재부팅  
@@ -37,7 +37,7 @@ $ sudo shutdown -h now
 -c : 진행중인 shutdown 명령을 취소  
 -t sec : 지정시간에 시스템을 재시동  
 
-사용 예  
+**사용 예**  
 shutdown -h now : 지금 즉시 종료  
 shutdown -h +3 : 3분 후 종료  
 shutdown -r now : 지금 즉시 재부팅  
