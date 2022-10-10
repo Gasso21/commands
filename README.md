@@ -1,4 +1,5 @@
-- 맥에서 SCP 사용하기
+# zsh 명령어
+## 맥에서 SCP 사용하기
 1. 맥에서 원격지 서버로 파일 전송
 $ scp -p -r "파일이름" "원격지서버UserID"@"IPAddress":"원격지서버 디렉토리"
 
@@ -11,7 +12,7 @@ $ scp -p -r "원격지서버UserID"@"IPAddress":"원격지서버 디렉토리(�
 -P : <Port>포트 지정, SSH포트가 22번이 아닐 때 사용
 """
 
-- 맥에서 크램쉘모드 사용
+## 맥에서 크램쉘모드 사용
 1. 잠자기 모드 Off
 $ sudo pmset -b disablesleep 1
 
@@ -26,7 +27,7 @@ pmset : Power Management Setting
 -u : ups 상태일 때 적용
 """
 
-- 맥 종료 명령어
+## 맥 종료 명령어
 $ sudo shutdown -h now
 
 """
